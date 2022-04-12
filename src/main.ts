@@ -14,8 +14,8 @@ import http from "@/api/http";
 import { registerComponents } from "./components";
 import * as Icons from "@element-plus/icons";
 import pinia from "./store/pinia";
-
 import "./setting";
+import "./tcb"
 
 const app = createApp(App);
 Object.keys(Icons).forEach((it) => {
@@ -43,3 +43,28 @@ app.use(ElementPlus, {
 });
 app.use(http);
 app.mount("#app");
+
+
+// const application = cloudbase.init({
+//   env: "cloud1-5gukdsmgf9c78413",
+// });
+
+
+// const auth = application.auth({
+//     persistence:"local"
+// })
+
+// let db = null;
+
+// application
+//   .callFunction({
+//     // 云函数名称
+//     name: "fastApptFunction",
+//     data: {
+//       type: "login"
+//     }
+//   })
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch(console.error);

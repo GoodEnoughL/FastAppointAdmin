@@ -33,165 +33,165 @@ export const adminRoutes = [
       },
     ],
   },
-  {
-    menuUrl: "/list",
-    menuName: "列表页面",
-    icon: "OperationIcon",
-    parentPath: '',
-    children: [
-      {
-        parentPath: '/list',
-        menuUrl: "/list/table-with-search",
-        menuName: "表格搜索",
-      },
-      {
-        parentPath: '/list',
-        menuUrl: "/list/table-custom",
-        menuName: "自定义表格",
-      },
-      {
-        parentPath: '/list',
-        menuUrl: "/list/list",
-        menuName: "普通列表",
-      },
-      {
-        parentPath: '/list',
-        menuUrl: "/list/card-list",
-        menuName: "卡片列表",
-      },
-    ],
-  },
-  {
-    menuUrl: "/form",
-    menuName: "表单页面",
-    tip: "dot",
-    icon: "PostcardIcon",
-    parentPath: '',
-    children: [
-      {
-        parentPath: '/form',
-        menuUrl: "/form/base-form-view",
-        menuName: "基本表单",
-        cacheable: true,
-      },
-      {
-        parentPath: '/form',
-        menuUrl: "/form/advance-form",
-        menuName: "高级表单",
-        cacheable: true,
-      },
-      {
-        parentPath: '/form',
-        menuUrl: "/form/step-form",
-        menuName: "分步表单",
-      },
-      {
-        parentPath: '/form',
-        menuUrl: "/form/form-component",
-        menuName: "表单组件",
-      },
-    ],
-  },
-  {
-    menuUrl: "/other",
-    menuName: "功能/组件",
-    icon: "GridIcon",
-    parentPath: '',
-    children: [
-      {
-        parentPath: '/other',
-        menuUrl: "/other/chart",
-        menuName: "图表",
-        children: [
-          {
-            parentPath: '/other/chart',
-            menuUrl: "/other/chart/icon",
-            menuName: "图标",
-            children: [
-              {
-                parentPath: '/other/chart',
-                menuUrl: "/other/chart/icon/icon-font",
-                menuName: "IconFont",
-              },
-              {
-                parentPath: '/other/chart',
-                menuUrl: "/other/chart/icon/element-plus",
-                menuName: "ElementPlus",
-              },
-              {
-                parentPath: '/other/chart',
-                menuUrl: "/other/chart/icon/icon-select",
-                menuName: "图标选择器",
-              },
-            ]
-          },
-          {
-            parentPath: '/other/chart',
-            menuUrl: "/other/chart/echarts",
-            menuName: "echarts",
-          }
-        ]
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "/other/print",
-        menuName: "打印",
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "/other/tip",
-        menuName: "消息提示",
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "/other/clipboard",
-        menuName: "剪切板",
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "http://www.baidu.com",
-        menuName: "外链",
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "/other/cropper",
-        menuName: "图片裁剪",
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "/other/qrcode",
-        menuName: "二维码",
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "/other/css-animation",
-        menuName: "Css动画",
-      },
-      {
-        parentPath: '/other',
-        menuUrl: "/other/descriptions",
-        menuName: "详情页面",
-      }
-    ],
-  },
-  {
-    menuUrl: "/result",
-    menuName: "结果页面",
-    icon: "TakeawayBoxIcon",
-    parentPath: '',
-    children: [
-      {
-        parentPath: '/result',
-        menuUrl: "/result/success",
-        menuName: "成功页面",
-      },
-      {
-        parentPath: '/result',
-        menuUrl: "/result/fail",
-        menuName: "失败页面",
-      },
-    ],
-  },
+  // {
+  //   menuUrl: "/list",
+  //   menuName: "列表页面",
+  //   icon: "OperationIcon",
+  //   parentPath: '',
+  //   children: [
+  //     {
+  //       parentPath: '/list',
+  //       menuUrl: "/list/table-with-search",
+  //       menuName: "表格搜索",
+  //     },
+  //     {
+  //       parentPath: '/list',
+  //       menuUrl: "/list/table-custom",
+  //       menuName: "自定义表格",
+  //     },
+  //     {
+  //       parentPath: '/list',
+  //       menuUrl: "/list/list",
+  //       menuName: "普通列表",
+  //     },
+  //     {
+  //       parentPath: '/list',
+  //       menuUrl: "/list/card-list",
+  //       menuName: "卡片列表",
+  //     },
+  //   ],
+  // },
+  // {
+  //   menuUrl: "/form",
+  //   menuName: "表单页面",
+  //   tip: "dot",
+  //   icon: "PostcardIcon",
+  //   parentPath: '',
+  //   children: [
+  //     {
+  //       parentPath: '/form',
+  //       menuUrl: "/form/base-form-view",
+  //       menuName: "基本表单",
+  //       cacheable: true,
+  //     },
+  //     {
+  //       parentPath: '/form',
+  //       menuUrl: "/form/advance-form",
+  //       menuName: "高级表单",
+  //       cacheable: true,
+  //     },
+  //     {
+  //       parentPath: '/form',
+  //       menuUrl: "/form/step-form",
+  //       menuName: "分步表单",
+  //     },
+  //     {
+  //       parentPath: '/form',
+  //       menuUrl: "/form/form-component",
+  //       menuName: "表单组件",
+  //     },
+  //   ],
+  // },
+  // {
+  //   menuUrl: "/other",
+  //   menuName: "功能/组件",
+  //   icon: "GridIcon",
+  //   parentPath: '',
+  //   children: [
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/chart",
+  //       menuName: "图表",
+  //       children: [
+  //         {
+  //           parentPath: '/other/chart',
+  //           menuUrl: "/other/chart/icon",
+  //           menuName: "图标",
+  //           children: [
+  //             {
+  //               parentPath: '/other/chart',
+  //               menuUrl: "/other/chart/icon/icon-font",
+  //               menuName: "IconFont",
+  //             },
+  //             {
+  //               parentPath: '/other/chart',
+  //               menuUrl: "/other/chart/icon/element-plus",
+  //               menuName: "ElementPlus",
+  //             },
+  //             {
+  //               parentPath: '/other/chart',
+  //               menuUrl: "/other/chart/icon/icon-select",
+  //               menuName: "图标选择器",
+  //             },
+  //           ]
+  //         },
+  //         {
+  //           parentPath: '/other/chart',
+  //           menuUrl: "/other/chart/echarts",
+  //           menuName: "echarts",
+  //         }
+  //       ]
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/print",
+  //       menuName: "打印",
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/tip",
+  //       menuName: "消息提示",
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/clipboard",
+  //       menuName: "剪切板",
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "http://www.baidu.com",
+  //       menuName: "外链",
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/cropper",
+  //       menuName: "图片裁剪",
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/qrcode",
+  //       menuName: "二维码",
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/css-animation",
+  //       menuName: "Css动画",
+  //     },
+  //     {
+  //       parentPath: '/other',
+  //       menuUrl: "/other/descriptions",
+  //       menuName: "详情页面",
+  //     }
+  //   ],
+  // },
+  // {
+  //   menuUrl: "/result",
+  //   menuName: "结果页面",
+  //   icon: "TakeawayBoxIcon",
+  //   parentPath: '',
+  //   children: [
+  //     {
+  //       parentPath: '/result',
+  //       menuUrl: "/result/success",
+  //       menuName: "成功页面",
+  //     },
+  //     {
+  //       parentPath: '/result',
+  //       menuUrl: "/result/fail",
+  //       menuName: "失败页面",
+  //     },
+  //   ],
+  // },
   {
     menuUrl: "/exception",
     menuName: "异常页面",

@@ -229,7 +229,7 @@ function doRefresh() {
 
 async function getAllMenuList() {
   const roles = await $role.getRoles()
-  console.log('roles:',roles)
+  console.log(roles)
 }
 
 
